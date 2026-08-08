@@ -46,3 +46,18 @@ Then send the link to your boyfriend.
 ## Important
 
 The site uses Google Fonts from the internet. If you want the site to work completely offline, replace the fonts with local/system fonts.
+
+
+## 4. Background music
+
+The site is already configured to play a local MP3 in the `music` folder:
+
+`music/Por Primera Vez - Camilo & Evaluna.mp3`
+
+For copyright reasons, the MP3 itself is not included in this ZIP. If you legally have the audio file, put it in the `music` folder using exactly that filename. The music will start after the visitor interacts with the page (modern browsers normally block automatic audio before interaction).
+
+The floating `♫` button lets the visitor pause/resume the music.
+
+
+Cute GIF decorations: gifs/cute-heart.gif, gifs/sparkles.gif, gifs/love-letter.gif
+These are original local assets, so they work on GitHub Pages without external image hosting.

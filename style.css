@@ -106,6 +106,13 @@ h1 {
 
 h1 span, h2 span { color: var(--pink); }
 
+h1 span {
+  font-family: "Bodoni Moda", serif;
+  font-weight: 500;
+  font-style: italic;
+  letter-spacing: -.06em;
+}
+
 .subtitle {
   color: var(--muted);
   margin-top: 17px;
@@ -336,4 +343,71 @@ footer .tiny { margin-top: 6px; color: #5f4c54; }
   h1 { font-size: 4rem; }
   .cards, .letters { grid-template-columns: 1fr; }
   .modal-card { padding: 35px 23px; }
+}
+
+
+.music-toggle {
+  position: fixed;
+  z-index: 30;
+  right: 18px;
+  bottom: 18px;
+  width: 46px;
+  height: 46px;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  background: rgba(20,8,15,.78);
+  color: var(--rose);
+  backdrop-filter: blur(12px);
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: .25s;
+}
+.music-toggle:hover {
+  transform: scale(1.06);
+  background: rgba(255,125,169,.15);
+}
+
+/* Cute animated decorations */
+.cute-decor {
+  position: fixed;
+  z-index: 1;
+  pointer-events: none;
+  opacity: .78;
+  filter: drop-shadow(0 12px 25px rgba(255, 92, 145, .16));
+}
+.cute-decor img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.decor-heart { left: 2vw; top: 18vh; width: 92px; transform: rotate(-8deg); }
+.decor-sparkles { right: 2vw; top: 23vh; width: 100px; transform: rotate(8deg); }
+.decor-letter { right: 3vw; bottom: 10vh; width: 110px; transform: rotate(5deg); }
+
+@media (max-width: 700px) {
+  .cute-decor { opacity: .58; }
+  .decor-heart { left: -18px; top: 15vh; width: 72px; }
+  .decor-sparkles { right: -18px; top: 20vh; width: 78px; }
+  .decor-letter { right: -12px; bottom: 8vh; width: 85px; }
+}
+
+/* A subtle animated shimmer behind the main card */
+.hero-card {
+  position: relative;
+}
+.hero-card::before {
+  content: "♡";
+  position: absolute;
+  inset: -55px;
+  display: grid;
+  place-items: center;
+  font-family: "Cormorant Garamond", serif;
+  font-size: min(50vw, 430px);
+  color: rgba(255,125,169,.025);
+  z-index: -1;
+  animation: gentlePulse 4s ease-in-out infinite;
+}
+@keyframes gentlePulse {
+  0%,100% { transform: scale(.98); opacity: .6; }
+  50% { transform: scale(1.03); opacity: 1; }
 }
