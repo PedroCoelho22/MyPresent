@@ -218,6 +218,7 @@ setInterval(createHeart, 1000);
 
 // Background music
 const backgroundMusic = document.getElementById("backgroundMusic");
+backgroundMusic.volume = 0.20;
 const musicToggle = document.getElementById("musicToggle");
 
 function setMusicIcon() {
