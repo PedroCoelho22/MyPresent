@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy 18th, My Love ❤️</title>
+  <meta name="description" content="A little birthday surprise made with love.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="hearts" aria-hidden="true"></div>
+
+  <nav class="nav">
+    <button class="nav-btn active" data-section="home">♡</button>
+    <button class="nav-btn" data-section="reasons">18 Reasons</button>
+    <button class="nav-btn" data-section="openwhen">Open When...</button>
+  </nav>
+
+  <main>
+    <section id="home" class="section hero active">
+      <div class="hero-card">
+        <p class="eyebrow">A little something for you</p>
+        <h1>Happy <span>18th</span><br>Birthday, My Love</h1>
+        <p class="subtitle">I couldn't put my love for you in a box...</p>
+        <p class="subtitle">so I put a little piece of it here instead. ❤️</p>
+        <button class="primary" data-go="reasons">Open your present ✨</button>
+        <div class="scroll-hint">↓ there is more</div>
+      </div>
+    </section>
+
+    <section id="reasons" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">For your 18th birthday</p>
+        <h2>18 Reasons <span>Why I Love You</span></h2>
+        <p>One reason for every year you've been here. And honestly, I could've written hundreds.</p>
+      </div>
+      <div id="reasonsGrid" class="cards"></div>
+    </section>
+
+    <section id="openwhen" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">For whenever you need me</p>
+        <h2>Open <span>When...</span></h2>
+        <p>Some little messages from me, saved for the moments when you need them most.</p>
+      </div>
+      <div id="lettersGrid" class="letters"></div>
+    </section>
+  </main>
+
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <article class="modal-card">
+      <button class="close" aria-label="Close">×</button>
+      <div class="modal-icon" id="modalIcon">♡</div>
+      <p class="eyebrow" id="modalEyebrow"></p>
+      <h3 id="modalTitle"></h3>
+      <div id="modalText" class="modal-text"></div>
+      <div class="signature">Always yours. ❤️</div>
+    </article>
+  </div>
+
+  <footer>
+    <p>Made with love, just for you.</p>
+    <p class="tiny">18 looks good on you. ♡</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
