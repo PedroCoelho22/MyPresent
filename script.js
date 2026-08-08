@@ -111,13 +111,13 @@ const letters = [
   },
   {
     icon: "✨",
-    title: "Open when you're proud of yourself",
-    text: "STOP. Before you continue, take a second to appreciate yourself. Look at how far you've come. I'm proud of you too, and I hope you never forget that."
+    title: "Open when you're not proud of yourself",
+    text: "STOP. Before you continue, take a second to appreciate yourself. Look at how far you've come. I'm proud of you, and I hope you never forget that."
   },
   {
     icon: "🎂",
     title: "Open on your 18th birthday",
-    text: "Happy 18th birthday, my love. Today is your day, but somehow I feel like I'm the lucky one for getting to celebrate you. I hope this new chapter brings you happiness, amazing memories and everything you deserve. ❤️"
+    text: "Happy 18th birthday, my love. Today is your day, but somehow I feel like I'm the lucky one for getting to celebrate you. I hope this new chapter brings you more happiness, amazing memories and everything you deserve. ❤️"
   }
 ];
 
