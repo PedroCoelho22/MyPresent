@@ -25,7 +25,7 @@ body {
     radial-gradient(circle at 15% 15%, rgba(255,95,145,.14), transparent 28%),
     radial-gradient(circle at 85% 20%, rgba(181,83,255,.10), transparent 25%),
     linear-gradient(145deg, var(--bg), var(--bg2) 55%, #0d070c);
-  font-family: Poppins, sans-serif;
+  font-family: "Quicksand", sans-serif;
   overflow-x: hidden;
 }
 
@@ -93,8 +93,8 @@ button { font: inherit; }
 }
 
 h1, h2, h3 {
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 600;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
 }
 
 h1 {
@@ -296,7 +296,8 @@ h2 {
 .signature {
   margin-top: 28px;
   color: var(--pink);
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Caveat", cursive;
+  font-weight: 600;
   font-size: 1.45rem;
 }
 
