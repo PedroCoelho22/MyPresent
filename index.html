@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy 18th, My Love ❤️</title>
+  <meta name="description" content="A little birthday surprise made with love.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600;6..96,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="hearts" aria-hidden="true"></div>
+  <div class="cute-decor decor-heart" aria-hidden="true"><img src="gifs/cute-heart.gif" alt=""></div>
+  <div class="cute-decor decor-sparkles" aria-hidden="true"><img src="gifs/sparkles.gif" alt=""></div>
+  <div class="cute-decor decor-letter" aria-hidden="true"><img src="gifs/love-letter.gif" alt=""></div>
+
+  <audio id="backgroundMusic" loop preload="auto">
+    <source src="music/Por%20Primera%20Vez%20-%20Camilo%20%26%20Evaluna.mp3" type="audio/mpeg">
+  </audio>
+  <button id="musicToggle" class="music-toggle" aria-label="Ativar/desativar música">♫</button>
+
+  <nav class="nav">
+    <button class="nav-btn active" data-section="home">♡</button>
+    <button class="nav-btn" data-section="reasons">18 Reasons</button>
+    <button class="nav-btn" data-section="openwhen">Open When...</button>
+    <button class="nav-btn" data-section="finalletter">Final Letter</button>
+  </nav>
+
+  <main>
+    <section id="home" class="section hero active">
+      <div class="hero-card">
+        <p class="eyebrow">Something special for you</p>
+        <h1>Happy <span>18th</span><br>Birthday, My Love</h1>
+        <p class="subtitle">I couldn't put my love for you in some words...</p>
+        <p class="subtitle">so I create a little spot for them instead. ❤️</p>
+        <div class="relationship-counter" id="relationshipCounter">
+          <p class="counter-label">We've been together for...</p>
+          <div class="counter-grid">
+            <div><span id="counterDays">0</span><small>Days</small></div>
+            <div><span id="counterHours">0</span><small>Hours</small></div>
+            <div><span id="counterMinutes">0</span><small>Minutes</small></div>
+            <div><span id="counterSeconds">0</span><small>Seconds</small></div>
+          </div>
+          <p class="counter-note">And I hope we get to count many, many more. ❤️</p>
+        </div>
+        <button class="primary" data-go="reasons">Open your present baby ✨</button>
+        <div class="scroll-hint">↓ There is more</div>
+      </div>
+    </section>
+
+    <section id="reasons" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">For your 18th birthday</p>
+        <h2>Reasons Why <span>I Love You</span></h2>
+        <p>One reason for every year you've been here. And honestly, I could've written hundreds.</p>
+      </div>
+      <div id="reasonsGrid" class="cards"></div>
+    </section>
+
+    <section id="openwhen" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">For whenever you need me</p>
+        <h2>Open <span>When...</span></h2>
+        <p>Some little messages from me, saved for the moments when you need them most. ^^ </p>
+      </div>
+      <div id="lettersGrid" class="letters"></div>
+    </section>
+    <section id="finalletter" class="section final-letter-section">
+      <div class="section-heading">
+        <p class="eyebrow">Something I want you to keep</p>
+        <h2>A <span>Final Letter</span> For You</h2>
+        <p>There is one last thing I wanted to give you.</p>
+      </div>
+      <div class="envelope-scene">
+        <div class="envelope" id="finalEnvelope" role="button" tabindex="0" aria-label="Open the final letter">
+          <div class="envelope-back"></div>
+          <div class="envelope-paper">
+            <p class="paper-title">For João ❤️</p>
+            <p class="paper-preview">A little piece of my heart...</p>
+          </div>
+          <div class="envelope-flap"></div>
+          <div class="envelope-front"></div>
+          <div class="seal">♥</div>
+        </div>
+        <p class="envelope-hint" id="envelopeHint">Click the envelope to open it</p>
+      </div>
+      <article class="final-letter-content" id="finalLetterContent">
+        <div class="letter-paper">
+          <p class="letter-date">08.08.2026 · 16:30</p>
+          <h3>My Love,</h3>
+          <p>This is just a little reference letter for now. Replace this text with your own words whenever you're ready.</p>
+          <p>I wanted to make you something that you could keep, something that reminds you how special you are to me and how grateful I am that our paths crossed.</p>
+          <p>You mean more to me than I can properly explain, and I hope that whenever you read this, you remember that there is someone out there who loves your smile, your happiness, your silly moments and simply <em>you</em>.</p>
+          <p>Happy 18th birthday, João. I love you so much, my love. ❤️</p>
+          <p class="letter-signature">Always yours,<br>♡</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <article class="modal-card">
+      <button class="close" aria-label="Close">×</button>
+      <div class="modal-icon" id="modalIcon">♡</div>
+      <p class="eyebrow" id="modalEyebrow"></p>
+      <h3 id="modalTitle"></h3>
+      <div id="modalText" class="modal-text"></div>
+      <div class="signature">Always yours. ❤️</div>
+    </article>
+  </div>
+
+  <footer>
+    <p>Made with love, just for you, my darling.</p>
+    <p class="tiny">Hope you love it. ♡</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
