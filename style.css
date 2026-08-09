@@ -98,9 +98,9 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: clamp(4rem, 11vw, 8.5rem);
-  line-height: .82;
-  letter-spacing: -.045em;
+  font-size: clamp(3rem, 8vw, 6rem);
+  line-height: .9;
+  letter-spacing: -.055em;
   text-shadow: 0 12px 50px rgba(255,80,135,.15);
 }
 
