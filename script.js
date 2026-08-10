@@ -82,43 +82,42 @@ const letters = [
   {
     icon: "🥺",
     title: "Open when you're sad",
-    text: "If you're reading this because you're having a bad day, please remember that you don't have to deal with everything alone. I'm here for you. Even if I can't magically fix what's wrong, I'll listen, stay with you and remind you that tomorrow can be better."
+    text: "If you're reading this because you're having a bad day, please remember that you don't have to deal with everything alone. I'm here for you, always mi amor. Even if I can't magically fix what's wrong, I'll listen, stay with you and remind you that tomorrow can be better. 💝"
   },
   {
     icon: "💌",
     title: "Open when you miss me",
-    text: "If you miss me right now, just know that there is probably a part of me missing you too. Close your eyes for a second and imagine me giving you the biggest hug I can."
+    text: "If you miss me right now, and I cant text you, just know that there is a part of me missing you too. Close your eyes for a second and imagine me giving you the biggest kiss I can. 😘"
   },
   {
     icon: "😴",
     title: "Open when you can't sleep",
-    text: "Put your phone down for a moment, get comfortable and take a deep breath. Imagine we're lying next to each other, talking quietly until we both fall asleep. Goodnight, love."
+    text: "Put your phone down for a moment, get comfortable and take a deep breath. Imagine we're lying next to each other, talking quietly until we both fall asleep. Goodnight, my love. ✨"
   },
   {
     icon: "🫂",
     title: "Open when you need a hug",
-    text: "Consider this your emergency digital hug. 🫂 If I were there, I would probably hold you for way too long and refuse to let go."
+    text: "Consider this your emergency digital hug. If I were there, I would probably hold you for way too long and refuse to let go. 🤍"
   },
   {
     icon: "😂",
     title: "Open when you need a laugh",
-    text: "Remember that I'm voluntarily choosing to love you despite all the stupid things you do. That's true dedication. 😂❤️"
+    text: "Remember that I'm voluntarily choosing to love you despite all the stupid things you do. That's true dedication and love. 😂"
   },
   {
     icon: "❤️",
-    title: "Open when you need reassurance",
-    text: "You are loved. You are important to me. You are not a burden. You don't need to be perfect to deserve love, especially not mine."
+    title: "Open when you doubt yourself",
+    text: "I know there are moments when you question yourself and wonder if you're good enough. So let me remind you: YOU ARE. You don't have to be perfect, you don't need answer to everything, and you don't have to prove your worth to anyone. I believe in you, always. 💞"
   },
   {
-    icon: "✨",
-    title: "Open when you're proud of yourself",
-    text: "STOP. Before you continue, take a second to appreciate yourself. Look at how far you've come. I'm proud of you too, and I hope you never forget that."
+    icon: "🥹",
+    title: "Open when you're feeling lonely",
+    text: "I wish I could be right next to you now. But even far away, I hope you remember that you have someone who cares about you, thinks about you and loves you more than you probably realize. So until I can give you a real hug, let this little letter be one instead. 💖"
   },
   {
-    icon: "🎂",
-    title: "Open on your 18th birthday",
-    text: "Happy 18th birthday, my love. Today is your day, but somehow I feel like I'm the lucky one for getting to celebrate you. I hope this new chapter brings you happiness, amazing memories and everything you deserve. ❤️"
-  }
+    icon: "🎮",
+    title: "Open when you want to play with me",
+    text: "If you opened this, I think you already know what I'm going to say: just invite me, baby. I don't care what we play, whether we're winning or getting absolutely destroyed, I just want to spend some time with you. So go on, I'm waiting for you. 💌"
 ];
 
 // -------------------- SITE LOGIC --------------------
