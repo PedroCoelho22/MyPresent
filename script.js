@@ -118,6 +118,7 @@ const letters = [
     icon: "🎮",
     title: "Open when you want to play with me",
     text: "If you opened this, I think you already know what I'm going to say: just invite me, baby. I don't care what we play, whether we're winning or getting absolutely destroyed, I just want to spend some time with you. So go on, I'm waiting for you. 💌"
+  }
 ];
 
 // -------------------- SITE LOGIC --------------------
